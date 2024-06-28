@@ -6,4 +6,4 @@ router = Router()
 
 @router.message(CommandStart())
 async def start(msg: Message):
-    await msg.answer("Привет! Я бот, отображающий курсы фиатных и криптовалют. Чтобы пользоваться мною, введите в любом чате @<имя бота> (символ валюты, например TON, BTC, ETH)")
+    await msg.answer("Привет! Я бот, отображающий курсы фиатных и криптовалют. Чтобы пользоваться мною, введите в любом чате @architec_rate_bot (символ валюты, например TON, BTC, ETH)")
